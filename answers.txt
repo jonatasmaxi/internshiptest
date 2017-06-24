@@ -1,0 +1,4 @@
+The complexity of the algorithm that I have developed is O(n²).
+This solution can be improved in two ways: the first one is using parallelism since there's no data dependency if we're only counting the swaps, no writing operation is made under the vector that contains the positions of the queue. I don't know exactly how much this approach would help to change the current complexity but I think that the new complexity would be something like O(n). The second way to improve my algorithm is to replace the "bubble sort logic" used to count the swaps for something faster like "merge sort logic" that uses divide and conquer. Divide and conquer algorithms like merge sort and quick sort have O(log n) complexity. 
+The complexity class for this problem is P. 
+
